@@ -1,0 +1,182 @@
+html
+{
+    min-height: 100%;
+}
+
+body 
+{
+    color: white;
+    height: 100%;
+    background-color: black;
+}
+
+h1
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+}
+
+.logo
+{
+    position: relative;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.logo img
+{
+    width: 90%;    
+}
+
+.mainArea
+{
+    height: 100%;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+    box-shadow: 0px -4px 50px 10px rgb(15, 15, 15);
+    position: relative;
+    z-index: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.leftSpacer
+{
+    float: left;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    display: none;
+}
+
+.leftSpacer img
+{
+    position: relative;
+    margin-left: -200%;
+    margin-right: -200%;
+}
+
+.rightSpacer
+{
+    float: right;
+    width: 20%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+    display: none;
+}
+
+.rightSpacer img
+{
+    position: relative;
+    margin-left: -200%;
+    margin-right: -200%;
+}
+
+
+.header
+{
+    position: relative;
+    margin-top: 30px;
+    text-align: center;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.video
+{
+    position: relative;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.video iframe
+{
+    width: 90%;
+    height: 400px;
+}
+
+.markets
+{
+    position: relative;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.footer
+{
+    position: relative;
+    margin: 0px auto;
+    height: 10px;
+}
+
+.socialBar
+{
+    width: 425px;
+    overflow: hidden;
+    margin: 0px auto;
+    vertical-align: middle;
+}
+
+.socialImg
+{
+    width: 55px;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+    float: left;
+    vertical-align: middle;
+}
+
+.socialImg img
+{
+    width: 40px;
+    
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=50);
+    -moz-opacity: 0.5;
+    opacity: 0.8;
+}
+
+.socialImg:hover img
+{
+    width: 40px;
+    
+    filter:progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+    -moz-opacity: 1;
+    opacity: 1;
+}
+
+.spacer
+{
+    position: relative;
+    height: 40px;
+    width: 70%;
+}
+
+.memberNames
+{
+    position: relative;
+    margin: 0px auto;
+
+    padding-bottom: 20px;
+    
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.itunes_link
+{
+    display: inline-block;
+    overflow: hidden;
+    background: url(https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_itunes-lrg.png) no-repeat;
+    width: 110px;
+    height: 40px;
+    @media only screen
+    {
+        background-image: url(https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_itunes-lrg.svg);
+    }
+}
