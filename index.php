@@ -31,12 +31,11 @@
 	    </script>
 	</head>
 
-	<body>
+	<body class='container'>
 		<div class='leftSpacer' id='leftSpacer'>
 		</div>
 
 		<div class='rightSpacer' id='rightSpacer'>
-			<img src="images/Samuel.jpg">
 		</div>
 
 		<div class='mainArea'>

@@ -8,6 +8,7 @@ body
     color: white;
     height: 100%;
     background-color: black;
+    margin: 0px;
 }
 
 h1
@@ -30,12 +31,11 @@ h1
 
 .mainArea
 {
+    order: 2;
+    flex: 2 0 700px;
+
     height: 100%;
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
     box-shadow: 0px -4px 50px 10px rgb(15, 15, 15);
-    position: relative;
     z-index: 0;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -43,12 +43,12 @@ h1
 
 .leftSpacer
 {
-    float: left;
-    width: 20%;
+    order: 1;
+    flex: 1 5;
+
     height: 100%;
     text-align: center;
     overflow: hidden;
-    display: none;
 }
 
 .leftSpacer img
@@ -60,12 +60,12 @@ h1
 
 .rightSpacer
 {
-    float: right;
-    width: 20%;
+    order: 3;
+    flex: 1 5;
+
     height: 100%;
     text-align: center;
     overflow: hidden;
-    display: none;
 }
 
 .rightSpacer img
@@ -179,4 +179,12 @@ h1
     {
         background-image: url(https://linkmaker.itunes.apple.com/htmlResources/assets/en_us//images/web/linkmaker/badge_itunes-lrg.svg);
     }
+}
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
 }
