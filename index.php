@@ -81,6 +81,9 @@
 		        <div class='socialImg'>
 		        	<a href="mail"><img src="images/mail.png" /></a>
 		        </div>
+		        <div class='socialImg'>
+		        	<a href="instagram" target="_blank"><img src="images/instagram.png" /></a>
+		        </div>
 			</div>
 			<div class='footer' id='footerDiv' />
 		</div>

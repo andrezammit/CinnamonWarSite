@@ -24,6 +24,10 @@ case '/mail':
 	header('Location: mailto:info@cinnamonwar.com');
 	exit;
 
+case '/instagram':
+	header('Location: https://instagram.com/cinnamonwarband/');
+	exit;
+
 case '/shadows':
 	header('Location: http://goo.gl/HeLvIj');
 	exit;
