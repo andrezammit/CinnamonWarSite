@@ -62,7 +62,7 @@
 			</div>
 
 			<div class='memberNames'>
-			mike - vox | robert - guitar | andre - bass | samuel - drums
+			mike - vox | robert - guitar | andre - bass | samuel - drums1
 			</div>
 
 			<div class='socialBar' id='socialBar'>
