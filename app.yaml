@@ -1,18 +1,18 @@
-application: fleet-cyclist-543
-version: 3
-runtime: php
+# application: fleet-cyclist-543
+# version: 4
+runtime: php55
 api_version: 1
 threadsafe: yes
 
 handlers:
 # Serve images as static resources.
-- url: /(.+\.(js|ico|gif|png|jpg|css))$
+- url: /(.+\.(js|ico|gif|png|jpg|css))
   static_files: \1
-  upload: .+\.(js|ico|gif|png|jpg|css)$
+  upload: .+\.(js|ico|gif|png|jpg|css)
   application_readable: true
 
 # Serve php scripts.
-- url: /(.+\.php)$
+- url: /(.+\.php)
   script: \1
 
 - url: /
