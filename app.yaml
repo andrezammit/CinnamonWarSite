@@ -1,5 +1,3 @@
-# application: fleet-cyclist-543
-# version: 4
 runtime: php55
 api_version: 1
 threadsafe: yes
