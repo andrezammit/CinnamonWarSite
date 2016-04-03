@@ -58,6 +58,8 @@ h1
     height: 100%;
     text-align: center;
     overflow: hidden;
+    
+    padding-top: 75px;
 }
 
 .leftSpacer img
@@ -78,6 +80,8 @@ h1
     height: 100%;
     text-align: center;
     overflow: hidden;
+    
+    padding-top: 75px;    
 }
 
 .rightSpacer img

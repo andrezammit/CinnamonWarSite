@@ -5,18 +5,18 @@ function GetRandomImageIndex()
 
 function LoadRandomLeftImage()
 {
-    var leftImages = ["Robert.jpg", "Mike.jpg"];
+    var leftImages = ["left_image.png"];
     var imgIndex = GetRandomImageIndex();
 
-    $('#leftSpacer').html("<img src='images/" + leftImages[imgIndex] + "'>");
+    $('#leftSpacer').html("<img src='images/" + leftImages[0] + "'>");
     $('#leftSpacer').fadeIn('slow', null);
 }
 
 function LoadRandomRightImage()
 {
-    var rightImages = ["Andre.jpg", "Samuel.jpg"];
+    var rightImages = ["right_image.png"];
     var imgIndex = GetRandomImageIndex();
 
-    $('#rightSpacer').html("<img src='images/" + rightImages[imgIndex] + "'>");
+    $('#rightSpacer').html("<img src='images/" + rightImages[0] + "'>");
     $('#rightSpacer').fadeIn('slow', null);
 }
