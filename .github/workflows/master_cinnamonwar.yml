@@ -41,7 +41,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: build
     environment:
-      name: 'production'
+      name: 'Production'
       url: ${{ steps.deploy-to-webapp.outputs.webapp-url }}
 
     steps:
@@ -55,6 +55,6 @@ jobs:
         id: deploy-to-webapp
         with:
           app-name: 'cinnamonwar'
-          slot-name: 'production'
-          publish-profile: ${{ secrets.AzureAppService_PublishProfile_1d6e03b6a40545f78d5dcf9e7c9b3ca6 }}
+          slot-name: 'Production'
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DB3283F9C7544908BD45558C29949176 }}
           package: .
